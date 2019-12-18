@@ -50,22 +50,39 @@
             <section class="content">
                 <h2 align="center"> Лабораторная работа #2</h2>
                 
-                <b>Задачи:</b>
-                <ol>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                </ol>
-                <b>Результаты:</b>
-                <ol>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                </ol>
+               <br>	
+                  <h3>Проектирование и разработка индивидуального или коллективного веб-приложения с использованием html,css,js + json,xml</h3>
+                  <h3>Задачи:</h3>
+                  <ol>
+                    <li>Формирование команды для разработки проекта.</li>
+                    <li>Определение ролей участников команды.</li>
+                    <li>Разработка прототипа приложения.</li>
+                  </ol>
+                  <h3>Выполненные работы:</h3>
+                  	<ol>
+                    <li>Была сформирована команда из трех человек:<br>
+                      
+                        <a href="https://github.com/arzhannikovdmitry">Аржанников Дмитрий</a> - СП, АД, ПП.<div class="clear"><br></div>
+                        <a href="https://github.com/hitsukey">Ильин Илья</a> - СП, КО, ПП.<div class="clear"><br></div>
+                        <a href="https://github.com/wedmolol">Сурков Павел</a> - РП, СП, НИ, БА.<div class="clear"><br></div>
+                     
+                    </li>
+                    <li>Название команды <b>"Chemical Society".</b></li>
+                    <li>Команда разработала прототип <b>браузерной игры "Битва хокку"</b>.</li>
+                    <li>
+                      Были разработаны правила:
+                    </li>
+                    <div class ="img_container"><img src="/screenshot2-1.png"></div>
+                    <li>
+                      Был разработан пример интерфейса:
+                    </li>
+				
+                    <div class ="img_container"><img src="/screenshot2-2.png"><br><br></div>
+                    <div class ="img_container"><img src="/screenshot2-3.png"><br><br></div>
+                    <div class ="img_container"><img src="/screenshot2-4.png"><br><br></div>
+                  </ol>
+                </div>
+                <br>
             </section>
         </div>
 
@@ -73,22 +90,141 @@
                 <section class="content">
                     <h2 align="center"> Лабораторная работа #3</h2>
                     
-                    <b>Задачи:</b>
-                    <ol>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                    </ol>
-                    <b>Результаты:</b>
-                    <ol>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                    </ol>
+                <br>
+                  <h3>Настройка коммутаторов и маршрутизаторов</h3>
+
+                  <p>Расчитываем диапазоны подсетей.</p>
+                  <div class ="img_container"><table>
+                    <tbody><tr>
+                      <th>-</th>
+                      <th>Lan A</th>
+                      <th>Lan B</th>
+                      <th>Lan C</th>
+                      </tr><tr>
+                        <th>Кол-во узлов</th>
+                        <td>12</td>
+                        <td>457</td>
+                        <td>78</td>
+                      </tr>
+                      <tr>
+                        <th>Subnet</th>
+                        <td>192.168.3.0</td>
+                        <td>172.16.3.0</td>
+                        <td>10.10.3.0</td>
+                      </tr>
+                      <tr>
+                        <th>Mask</th>
+                        <td>255.255.255.240</td>
+                        <td>255.255.254.0</td>
+                        <td>255.255.255.128</td>
+                      </tr>
+                      <tr>
+                        <th>Broadcast</th>
+                        <td>192.168.3.15</td>
+                        <td>172.16.4.255</td>
+                        <td>10.10.3.127</td>
+                      </tr>
+                    
+                  </tbody></table></div>
+                  <br>
+                  <ol>
+                    <li>
+                      <p>Помещаем на рабочее поле коммутатор и два компьютера, после чего соединяем их.</p>
+			     <div class ="img_container"><img src="screenshot3-1.png"></div>
+                      
+                    </li>
+                    <li>
+                      <p>Добавляем еще один коммутатор с двумя компьютерами и настраиваем адресацию из другой подсети.</p>
+                     <div class ="img_container"><img src="screenshot3-2.png"></div> 
+                    </li>
+                    <li>
+                      <p>Соединяем коммутаторы между собой и проверяем работоспособность сети (Не работает, так как коммутаторы подсоединяются только к маршрутизаторам).</p>
+                      <div class ="img_container"><img src="screenshot3-3.png"></div> 
+                    </li>
+                    <li>
+                      <p>Добавляем маршрутизатор.</p>
+			    <div class ="img_container"><img src="screenshot3-4.png"></div> 
+                    </li>
+                    <li>
+                      <p>Добавляем еще один маршрутизатор. Подключаем к нему коммутатор и компьютер.</p>
+			    <div class ="img_container"><img src="screenshot3-5.png"></div> 
+                    </li>
+                  </ol>
+                  <br>
+                <div class ="img_container"><table>
+                    <tbody><tr>
+                      <th>Устройство</th>
+                      <th>IP - адрес</th>
+                      <th>Маска</th>
+                      <th>Шлюз</th>
+                      </tr><tr>
+                        <td>PC0</td>
+                        <td>192.168.3.14  </td>
+                        <td>255.255.255.240</td>
+                        <td>192.168.3.1</td>
+                      </tr>
+                      <tr>
+                        <td>PC1</td>
+                        <td>192.168.3.13</td>
+                        <td>255.255.255.240</td>
+                        <td>192.168.3.1</td>
+                      </tr>
+                      <tr>
+                        <td>PC2</td>
+                        <td>172.16.4.254</td>
+                        <td>255.255.254.0</td>
+                        <td>172.16.3.1</td>
+                      </tr>
+                      <tr>
+                        <td>PC3</td>
+                        <td>172.16.4.253</td>
+                        <td>255.255.254.0</td>
+                        <td>172.16.3.1</td>
+                      </tr>
+                      <tr>
+                        <td>PC4</td>
+                        <td>10.10.3.126</td>
+                        <td>255.255.255.128</td>
+                        <td>10.10.3.1</td>
+                      </tr>
+                      <tr>
+                        <td>R0 0/0</td>
+                        <td>192.168.3.1</td>
+                        <td>255.255.255.240</td>
+                        <td>-</td>
+                      </tr>
+                      <tr>
+                        <td>R0 0/1</td>
+                        <td>172.16.3.1</td>
+                        <td>255.255.254.0</td>
+                        <td>-</td>
+                      </tr>
+                      <tr>
+                        <td>R0 0/2</td>
+                        <td>15.15.3.2</td>
+                        <td>255.255.255.252</td>
+                        <td>-</td>
+                      </tr>
+                      <tr>
+                        <td>R1 0/1</td>
+                        <td>10.10.3.1</td>
+                        <td>255.255.255.128</td>
+                        <td>-</td>
+                      </tr>
+                      <tr>
+                        <td>R1 0/2</td>
+                        <td>15.15.3.1</td>
+                        <td>255.255.255.252</td>
+                        <td>-</td>
+                      </tr>
+                    
+                  </tbody></table></div>
+                  <br>
+                  <p>Настройка статической маршрутизации производится при помощи команды: ip route [сеть назначения] [маска] [маршрут]</p>
+                  <p>Установка баннера на сетевое оборудование: banner motd [баннер]</p>
+
+                  <p>Проверка работоспособности сети:</p>
+				<div class ="img_container"><img src="screenshot3-6.png"  width="90%"></div> 
                 </section>
             </div>
 </body>
